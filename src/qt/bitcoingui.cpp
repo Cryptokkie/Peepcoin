@@ -342,8 +342,6 @@ void BitcoinGUI::createActions()
     cpatexBTCAction->setToolTip(tr("Buy Peepcoin for BTC on C-Patex"));
 	cpatexDOGEAction = new QAction(QIcon(":/icons/cpatex"), tr("&C-Patex - PCN/DOGE"), this);
 	cpatexDOGEAction->setToolTip(tr("Buy Peepcoin for DOGE on C-Patex"));
-	cryptopiaAction = new QAction(QIcon(":/icons/cryptopia"), tr("Cryptopia - Coming Soon"), this);
-	cryptopiaAction->setToolTip(tr("Buy Peepcoin for BTC on Cryptopia - Coming SOON"));
 	cryptobridgeAction = new QAction(QIcon(":/icons/cryptobridge"), tr("&CryptoBridge - Coming Soon"), this);
 	cryptobridgeAction->setToolTip(tr("Buy Peepcoin for BTC on CryptoBridge - Coming Soon"));
 	otherExchangesAction = new QAction(QIcon(":/icons/bitcoin"), tr("&Other Exchanges"), this);
